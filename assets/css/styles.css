@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Vazir;
+    src: url(../fonts/Vazir-Regular.ttf);
+}
+
+@font-face {
+    font-family: BoldVazir;
+    src: url(../fonts/Vazir-Bold.ttf);
+}
+
+* {
+    font-family: Vazir;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: BoldVazir;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(../../Resources/snow-5707452_1920.jpg);
+}
+
+.login, .signin {
+    background-color: #000;
+    opacity: 90%;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.login form input, .signin form input {
+    max-width: 540px;
+    margin: auto;
+}
+
+
+/* All */
+
+.form-check-input {
+    cursor: pointer;
+}
